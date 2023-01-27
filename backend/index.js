@@ -10,6 +10,9 @@ const HOST = "localhost";
 app.use(express.json());
 
 // Routes
+const apiRoutes = require("./routes/apiRoutes");
+
+app.use("/api/coinstats", apiRoutes);
 
 app.listen(PORT, HOST, () => {
   console.log(`Running on http://${HOST}:${PORT}`);
