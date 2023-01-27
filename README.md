@@ -1,2 +1,2 @@
 # dash-koin
-Dashboard conversão USD-BRL, EUR-BRL, BTC-BRL
+Dashboard bitcoin em BRL, USD e EUR
